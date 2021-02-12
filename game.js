@@ -153,7 +153,7 @@ function drawEverything() {
     ctx.fillText(player2Score, c.width - 100, 100);
     // DRAW the net in the middle
     for(let i=0; i<c.height;i+=40){
-    	colorRect(c.width/2-1,i,2,20,'green');
+    	colorRect(c.width/2-1,i,2,20,'yellow');
     }
 }
 
